@@ -1,0 +1,10 @@
+user/moderator/Admin
+    frontEnd - create user login page
+               take id & password and sign in
+               send it via POST
+    BackEnd - sign in result
+                    -succes : give access 
+                    -error : create error
+
+moderator 
+    frontEnd - 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Page</title>
+</head>
+<body>
+    <div id="testHeader">
+        <h1 class="center padding10">
+            Test-Series
+        </h1>
+    </div>
+
+    <div id="testBody" class = "row" >
+        <div id="testInfo" class = "row col-12">
+            <span id="testName" class="col-6">Sample Mock Test</span>
+            <span id="marksInfo" class = "col-3">Marks-Info</span>
+            <span id="testTimer" class="col-3" style="text-align: right;">Timing</span>
+        </div>
+        <div id ="sameHeight" class="row">
+
+        <div id="questionContainer" class="col-9">
+            <div id="question">
+                 Q Here goes the question
+            </div>
+
+            <div id="optionContainer">                
+            </div>
+
+            <div id="answerSubmit">
+                <button id="saveAndNext" class="btn">Save & Next</button>
+                <button id="save" class="btn">Save</button>
+                <button id ="markForReview" class="btn">mark for review</button>
+                <button id="clearResponse" class="btn">Clear Response</button>
+  
+            </div>
+        </div>
+        <div id="questionPaletteContainer" class="col-3"><div class="center">Question Palette</div>       
+            <div id="questionPalette"></div>       
+            <div id="questionPaletteInfo">
+                <div><span class="paletteBtn answered"></span>Answered</div>
+                <div><span class="paletteBtn markForReview"></span>Mark for Review</div>
+                <div><span class="paletteBtn visited"></span>Visited & Not Answered</div>
+                <div><span class="paletteBtn"></span>Not Visited</div>
+
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="col-12"><button id="endTest" class="btn padding10">End Test</button></div>
+    </div>
+    <script src = "./test.js"></script>
+</body>
+</html>
